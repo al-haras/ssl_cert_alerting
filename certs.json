@@ -1,8 +1,0 @@
-{
-"certs":[
-    {"domain":"subdomain.mydomain.com", "exp_date":"2020-02-24", "certificate":"standard", "issuer":"LetsEncrpyt", "purpose":"This Cert is used for X"},
-    {"domain":"*.mydomain.com", "exp_date":"2020-09-19", "certificate":"wildcard", "issuer":"DigiCert", "purpose":"This Cert is used for Y"},
-    {"domain":"*.devmydomain.com", "exp_date":"2020-02-19", "certificate":"wildcard", "issuer":"DigiCert","purpose":"This Cert is used for Y Development"},
-    {"domain":"vpn.mydomain.com", "exp_date":"2020-08-10", "certificate":"standard", "issuer":"GoDaddy", "purpose":"VPN Connection"}
-]
-}
