@@ -5,11 +5,10 @@ This tool was built because there was a need to receive alerts about expiring SS
 This is built using Python 3.7 and `requirements.txt` has the packages needed to be installed via pip (`pip install -r requirements.txt`)
 
 ### Configuration
-This requires you to specify information to authenticate to your SMTP server and where it is supposed to send messages to. Additionally you will need to specify similar parameters in the Slack component.
+`config_template.py` needs to be modified and changed to `config.py`. This requires you to specify information to authenticate to your SMTP server and where it is supposed to send messages to. Additionally you will need to specify similar parameters for the Slack functions.
 
 ### Running the tool
-The tool was essentially designed to run once per day. It should be able to be implemented anywhere you want it (cron, docker, etc).
+The tool was essentially designed to run once per day. It should be able to be implemented anywhere you want it (cron, docker, etc). A Dockerfile is included to deploy to a container.
 
 ### Future Plans
-- Containerization
-- Possibly implement REST API for certs.json
+- ?
